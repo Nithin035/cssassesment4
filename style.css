@@ -1,0 +1,168 @@
+.test{
+    width: 100vw;
+    height: 30px;
+    background-image:linear-gradient(to right,red,green,yellow)   
+}
+.test1{
+    width: 900px;
+    height: 70px;
+    background-color: #e7e7e7;
+    border:  red solid; 
+    border-radius: 8px;
+    position: relative;
+    left: 300px;
+
+}
+.item1{
+    width: 100%;
+    height: 150px;
+    background-color: aquamarine;
+    border: maroon solid;
+    border-radius: 15px;
+}
+.item2{
+    width: 450px;
+    height: 75px;
+    background-color: aqua;
+    border: green solid;
+    border-radius: 10px;
+    position: relative;
+    bottom: 150px;
+    left: 40px;
+}
+.item3{
+    width: 450px;
+    height: 75px;
+    background-color: aqua;
+    border: green solid;
+    border-radius: 10px;
+    position: relative;
+    left: 550px;
+    bottom: 235px;
+}
+.item4{
+    width: 450px;
+    height: 75px;
+    background-color: aqua;
+    border: green solid;
+    border-radius: 10px;
+    position: absolute;
+    right: 40px;
+    bottom: 465px;
+}
+.item5{
+    width: 450px;
+    height: 73px;
+    background-color: aqua;
+    border: green solid;
+    border-radius: 10px;
+    position: relative;  
+    left: 550px;
+    bottom: 235px;
+}
+.box{
+    width: 100vw;
+    height: 40px;
+    position: relative;
+    bottom: 200px;
+    background-image:linear-gradient(to right,red,yellow,red)
+}
+.heading{
+    width: 100vw;
+    height: 270px;
+    position: relative;
+    bottom: 200px;
+    border: 1px  black solid;
+    background-image:radial-gradient(
+         blue,
+         green
+         )
+
+}
+.icon{
+    width: 180px;
+    height: 90px;
+    background-color: yellow;
+    border: 2px red solid;
+    border-radius: 18px;
+    position: relative;
+    bottom: 400px;
+    left: 50px;
+
+}
+.icon1{
+    width: 180px;
+    height: 90px;
+    background-color: yellow;
+    border: 2px red solid;
+    border-radius: 18px;
+    position:relative ;
+    bottom: 490px;
+    left: 400px;
+
+}
+.icon2{
+    width: 180px;
+    height: 90px;
+    background-color: yellow;
+    border: 2px red solid;
+    border-radius: 18px;
+    position: relative;
+    bottom: 580px;
+    left: 820px;
+
+}
+.icon3{
+    width: 180px;
+    height: 90px;
+    background-color: yellow;
+    border: 2px red solid;
+    border-radius: 18px;
+    position:relative;
+  bottom: 670px;
+    left: 1200px;
+
+}
+
+.grid-container{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    width: 100%;
+    margin: 50px auto;
+    border: 1px gray solid;
+    display: grid;
+    color: white;
+    grid-template-rows: 60px 100px 200px 60px;
+    grid-template-columns: repeat(3,3fr) 100px;
+    grid-gap: 20px;
+    position: relative;
+    bottom: 500px;
+}
+.grid-item1{
+    background-color: brown;
+    grid-column: 1/-1;
+}
+.grid-item2{
+    background-color: limegreen;
+    
+}
+.grid-item3{
+    background-color: dodgerblue;
+}
+.grid-item4{
+    background-color: royalblue;
+}
+.grid-item5{
+    background-color: purple;
+    grid-row: 2/4;
+    grid-column: 4/5;
+}.grid-item6{
+    background-color: yellow;
+    grid-column: 1/4;
+}
+.grid-item7{
+    background-color: paleturquoise;
+    grid-column: 1/5;
+}
+
